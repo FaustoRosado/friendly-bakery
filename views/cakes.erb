@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sam's Pastries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="donut.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+    
+</head>
+<body>
+<h1 class="content-heading">Cakes & Cheesecakes</h1>
+<hr>
+    <div class="content-navbar">
+        <a class="link-nav" href = "<%= url('/')%>">HOME</a>
+        <a class="link-nav" href="<%= url('/muffins')%>">MUFFINS</a>
+        <a class="link-nav" href="<%= url('/cupcakes')%>">CUPCAKES</a>
+        <a class="link-nav" href="<%= url('/cakes')%>">CAKES</a>
+    </div>
+
+    
+<div class="pastries">
+<% @mycakes.each do |single_cake| %>
+    <div class="inner-container">
+    <img src ="<%=single_cake.picture%>">
+    <h2><%=single_cake.name%></h2>
+    <p class="content-description"><%=single_cake.price%></p>
+    <p class="content-description"><%=single_cake.description%></p>
+    </div>
+<%end%>
+
+</div>
+
+
+
+</body>
+</html>
