@@ -18,7 +18,7 @@ class Cakes
   end
 end
 
-class Donut
+class Muffin
   attr_accessor :name,:price,:description,:picture
   def initialize(name,price,description,picture)
       @name = name
@@ -35,7 +35,7 @@ end
 @@mintchoc = Cupcake.new("Mint Chocolate","$2.00","Super moist chocolate cupcake with a mint chocolate frosting","https://images.pexels.com/photos/1635985/pexels-photo-1635985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@redvelvet = Cupcake.new("Red Velvet","$2.00","Moist red velvet cupcake with traditional cream cheese frosting","https://images.pexels.com/photos/913135/pexels-photo-913135.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@cheesecake = Cupcake.new("Cheese Cake","$2.00","Mini cheesecake with a mixed berry topping and graham cracker crust","https://images.pexels.com/photos/461302/pexels-photo-461302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-@@confetti = Cupcake.new("Confetti Cupcake","$2.00","Confetti cupcake with a unicorn frosting and vanilla base","https://www.pexels.com/photo/baked-cupcake-with-1-number-decor-on-top-1663411/")
+@@confetti = Cupcake.new("Confetti Cupcake","$2.00","Confetti cupcake with a unicorn frosting and vanilla base","https://images.pexels.com/photos/1663411/pexels-photo-1663411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
 @@cranorange=Cupcake.new("Cranberry Orange","$2.00","Cranberry orange cupcake with a tart cranberry frosting","https://images.pexels.com/photos/684971/pexels-photo-684971.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@caramel = Cupcake.new("Caramel Cupcake","$2.00","Caramel cupcake with a spice vanilla frosting and kettle corn popcorn topping","https://images.pexels.com/photos/913134/pexels-photo-913134.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@cookies = Cupcake.new("Cookie Cream","$2.00","A cookie and cream cupcake with vanilla crumb frosting and shaved chocolate","https://images.pexels.com/photos/1591481/pexels-photo-1591481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
@@ -52,7 +52,7 @@ end
 @@triplechoc=Cakes.new("Triple Chocolate Mousse","$3.00","Triple chocolate mousse cake with white milk and dark chocolates","https://images.pexels.com/photos/960540/pexels-photo-960540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@carrot = Cakes.new("Ultimate Carrot","$3.00","Ultimate carrot cake with raisins walnuts with a spiced cream cheese frosting","https://images.pexels.com/photos/1703998/pexels-photo-1703998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@keylime = Cakes.new("Keylime Cake","$3.00","Keylime cake with a key lime white chocolate frosting","https://images.pexels.com/photos/1352295/pexels-photo-1352295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-@@tirmisu = Cakes.new("Tiramisu Cake","$3.00","A layered cake with coffee and mascarpone cheese filings","https://images.pexels.com/photos/1639560/pexels-photo-1639560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+@@tiramisu = Cakes.new("Tiramisu Cake","$3.00","A layered cake with coffee and mascarpone cheese filings","https://images.pexels.com/photos/1639560/pexels-photo-1639560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@orange = Cakes.new("Tart Orange","$3.00","A tart orange dark chocolate rum spiced cake","https://images.pexels.com/photos/53468/dessert-orange-food-chocolate-53468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 @@fig = Cakes.new("Fig Butter Cake","$3.00","A butter cake layered with fig and apricot spices","https://images.pexels.com/photos/236851/pexels-photo-236851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 

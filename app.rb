@@ -16,7 +16,7 @@ get '/cupcakes' do
 end
 
 get'/cakes' do
-  @mycakes = [@@devils,@@bluecheese,@@icecream,@@walnut,@@sponge,@@pettifour,@@triplechoc,@@carrot,@@keylime,@@tiramisu,@@orange@fig]
+  @mycakes = [@@devils,@@bluecheese,@@icecream,@@walnut,@@sponge,@@pettifour,@@triplechoc,@@carrot,@@keylime,@@tiramisu,@@orange,@@fig]
   erb :cakes
 end
 
