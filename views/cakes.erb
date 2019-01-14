@@ -23,12 +23,12 @@
 
     
 <div class="pastries">
-<% @mycakes.each do |single_cake| %>
+<% @mycakes.each do |item| %>
     <div class="inner-container">
-    <img src ="<%=single_cake.picture%>">
-    <h2><%=single_cake.name%></h2>
-    <p class="content-description"><%=single_cake.price%></p>
-    <p class="content-description"><%=single_cake.description%></p>
+    <img src ="<%=item.picture%>">
+    <h2><%=item.name%></h2>
+    <p class="content-description"><%=item.price%></p>
+    <p class="content-description"><%=item.description%></p>
     </div>
 <%end%>
 

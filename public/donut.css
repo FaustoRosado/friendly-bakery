@@ -16,8 +16,6 @@ img{
 
 .pastries{
   display:flex;
-  /* flex-direction:column; */
-  /* flex-flow: row wrap; */
   flex-wrap:wrap;
   margin: 6%;
   margin-top: 0;

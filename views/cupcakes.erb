@@ -24,12 +24,12 @@
 
 
 <div class="pastries">
-<% @mycupcakes.each do |single_cupcake| %>
+<% @mycupcakes.each do |item| %>
     <div class="inner-container">
-    <img src ="<%=single_cupcake.picture%>">
-    <h2><%=single_cupcake.name%></h2>
-    <p class="content-description"><%=single_cupcake.price%></p>
-    <p class="content-description"><%=single_cupcake.description%></p>
+    <img src ="<%=item.picture%>">
+    <h2><%=item.name%></h2>
+    <p class="content-description"><%=item.price%></p>
+    <p class="content-description"><%=item.description%></p>
     </div>
 <%end%>
 

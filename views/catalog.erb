@@ -1,0 +1,25 @@
+<h2>Sam's Pastries Catalog</h2>
+<h4>Thank you, a list of our tasty delights:</h4>
+<h5>Cakes </h5>
+<% @mycakes.each do |item| %>
+<%= item.name %> <br>
+<%= item.description %> <br>
+<%= item.price %>  <br>
+<% end %>
+<br>
+
+<h5>Muffins </h5>
+<% @mymuffins.each do |item| %>
+<%= item.name %> <br>
+<%= item.description %> <br>
+<%= item.price %>  <br>
+<% end %>
+<br>
+
+<h5>Cupcakes </h5>
+<% @mycupcakes.each do |item| %>
+<%= item.name %> <br>
+<%= item.description %> <br>
+<%= item.price %>  <br>
+<% end %>
+<br>

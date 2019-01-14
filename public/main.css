@@ -49,7 +49,7 @@ hr{
   display:none;
   position:absolute;
   z-index:1;
-  background-color: rgba(193, 196, 26, 0.849);
+  background-color: white;
 }
 
 #dropdown-content a{
@@ -66,7 +66,6 @@ hr{
 display:block;
 }
 .carousel{
-  /* height: 550px; */
   margin: 0 auto;
   padding:5%;
   width: 1000px;
@@ -106,9 +105,7 @@ margin-top:5%;
   left: 3%;
 }
 
-/* .carousel-control-next-icon, .carousel-control-prev-icon {
-  background: black no-repeat center center;
-} */
+
 .carousel-control-next {
   right: 3%;
 }
@@ -121,16 +118,16 @@ margin-top:5%;
 }
 
 .btn{
-  background-color:rgb(41, 12, 40);
+  background-color: orchid;
   margin-top: 10%;
   color:white;
   font-family: monospace;
   font-size: 2em;
-  /* border: 1px solid black; */
+
 }
 
 .btn:hover{
-  background-color:orangered;
+  background-color: orangered;
 }
 
 
