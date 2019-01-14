@@ -59,29 +59,18 @@ end
 
 
 
-# Creating Muffin Class
+# Create Muffin Class
 @@corn = Muffin.new("Corn Muffin","$2.00","Classic corn muffin baked with salted butter and lightly sweetened","https://images.pexels.com/photos/1000071/pexels-photo-1000071.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@banana= Muffin.new("Banana Muffin","$2.00","Banana bread muffin with crusted walnuts and almonds","https://images.pexels.com/photos/1657343/pexels-photo-1657343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@crancrunch = Muffin.new("Cranberry Crunch","$2.00","Muffin with cranberry filling and cranberry crumb topped","https://images.pexels.com/photos/266873/pexels-photo-266873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@blueberry = Muffin.new("Bleuberry Muffin","$2.00","Classic blueberry muffin baked with farm fresh blueberries","https://images.pexels.com/photos/90609/pexels-photo-90609.png?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@cinnamon= Muffin.new("Cinnamon Muffin","$2.00","Chocolate cinnamon muffin made with chunks of bitter chocolate","https://images.pexels.com/photos/2920/food-chocolate-sweet-cookies.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@dutch=Muffin.new("Dark Dutch Chocolate","$2.00","Dark dutch chocolate muffin with bitter chocolate bits","https://images.pexels.com/photos/8852/food-wood-kitchen-candy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@lemon = Muffin.new("Lemon Creme Muffin","$2.00","Lemon muffin with a lemon creme glaze","https://images.pexels.com/photos/236853/pexels-photo-236853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@coffee= Muffin.new("Coffee Chocolate","$2.00","Coffee chocolate muffins made with Columbian coffee","https://images.pexels.com/photos/209415/pexels-photo-209415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@waffle = Muffin.new("Buttermilk Waffle","$2.00","Buttermilk waffle muffins topped with fresh fruits and cinnamon sugar","https://images.pexels.com/photos/1577000/pexels-photo-1577000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@chocbran=Muffin.new("Oat Bran Muffin","$2.00","Oat bran muffin with bits of semi sweet chocolate","https://images.pexels.com/photos/131897/pexels-photo-131897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@almond = Muffin.new("Cinnamon Almond","$2.00","Cinnamon muffin with an almond brown sugar crumb","https://images.pexels.com/photos/65172/pexels-photo-65172.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-
 @@blackwhite= Muffin.new("Chocolate Vanilla Marble","$2.00","Chocolate and vanilla marble muffin lightly spiced","https://images.pexels.com/photos/68903/pexels-photo-68903.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 
 
