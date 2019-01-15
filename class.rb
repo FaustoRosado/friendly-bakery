@@ -8,6 +8,9 @@ class Cupcake
   end
 end
 
+# class Cookie < Pastry
+# end
+
 class Cakes
   attr_accessor :name,:price,:description,:picture
   def initialize(name,price,description,picture)
