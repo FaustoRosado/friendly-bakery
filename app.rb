@@ -29,56 +29,18 @@ end
 
 
 post '/contact' do 
+  @mycakes = [@@devils,@@bluecheese,@@icecream,@@walnut,@@sponge,@@pettifour,@@triplechoc,@@carrot,@@keylime,@@tiramisu,@@orange,@@fig]
+  @mymuffins = [@@corn,@@banana,@@crancrunch,@@blueberry,@@cinnamon,@@dutch,@@lemon,@@coffee,@@waffle,@@chocbran,@@almond,@@blackwhite]
+  @mycupcakes = [@@fruitcup,@@strawchoc,@@vanillacrumb,@@mintchoc,@@redvelvet,@@cheesecake,@@confetti,@@cranorange,@@caramel,@@cookies,@@molten,@@blackforest]
+ 
   puts params.inspect
-  from = SendGrid::Email.new(email:'ccccc@yahoo.com')
-  to = SendGrid::Email.new(email: params[:email])
+  from = SendGrid::Email.new(email:'faustrosado@gmail.com')
+  to = SendGrid::Email.new(email: params[:email].to_s)
   subject = "Sam's Pastries Catalog!"
-  content = SendGrid::Content.new(type: 'text/plain', value:
-  "Thank you, a list of our tasty delights:
-
-  Cakes: 
-    Devils Chocolate, $3.00
-    Blueberry Cheesecake, $3.00
-    Icecream Cake, $3.00
-    Walnut Cake, $3.00
-    Vanilla Almond Sponge, $3.00
-    Vanilla Cranberry Pettifour, $3.00
-    Triple Chocolate Mousse, $3.00
-    Ultimate Carrot, $3.00
-    Keylime Cake, $3.00
-    Tiramisu Cake, $3.00
-    Tart Orange, $3.00
-    Fig Butter Cake, $3.00
-   
-  Cupcakes:
-    Fruit cupcake, $2.00
-    Strawberry Chocolate, $2.00
-    Vanilla Crumb, $2.00
-    Mint Chocolate, $2.00
-    Red Velvet, $2.00
-    Cheesecake, $2.00
-    Confetti Cupcake, $2.00
-    Cranberry Orange, $2.00
-    Caramel cupcake, $2.00
-    Cookie cream, $2.00
-    Molten Chocolate, $2.00
-    Black Forest, $2.00
-
-  Muffins:
-    Corn muffin, $2.00
-    Banana muffin, $2.00
-    Cranberry crunch, $2.00
-    Blueberry muffin, $2.00
-    Cinnamon muffin, $2.00
-    Dark dutch chocolate, $2.00
-    Lemon creme muffin, $2.00
-    Coffee chocolate, $2.00
-    Buttermilk waffle, $2.00
-    Oat bran muffin, $2.00
-    Cinnamon Almond, $2.00
-    Chocolate Vanilla marble, $2.00"
-
-   )
+   content = SendGrid::Content.new(
+    type: 'text/html', 
+    value:  erb(:catalog)
+  )
    
   mail = SendGrid::Mail.new(from, subject, to, content)
   

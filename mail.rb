@@ -1,13 +1,13 @@
-require "sendgrid-ruby"
-require_relative "./class.rb"
-require_relative "./app.rb"
+# require "sendgrid-ruby"
+# require_relative "./class.rb"
+# require_relative "./app.rb"
 
 # include Muffin
 # include Cupcake
 # include Cakes
 # includes SendGrid mixin code
 # Class SGMail
-include SendGrid
+# include SendGrid
 
 # def initialize (from, to, catalog)
 #   from = Email.new (email: from)
