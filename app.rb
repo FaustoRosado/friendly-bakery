@@ -30,7 +30,7 @@ end
 
 post '/contact' do 
   puts params.inspect
-  from = SendGrid::Email.new(email:'ccccc@yahoo.com')
+  from = SendGrid::Email.new(email:'faustrosado@gmail.com')
   to = SendGrid::Email.new(email: params[:email])
   subject = "Sam's Pastries Catalog!"
   content = SendGrid::Content.new(type: 'text/plain', value:
